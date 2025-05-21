@@ -13,10 +13,10 @@ jobs:
     strategy:
       matrix:
         os:
-          - id: ubuntu22-8-32
+          - id: ubuntu-20.04
             name: Linux
-          - id: windows-latest
-            name: Windows
+          # - id: windows-latest
+          #   name: Windows
         java:
           - version: 17
             toolchain: false
