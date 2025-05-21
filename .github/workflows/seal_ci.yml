@@ -7,7 +7,7 @@ jobs:
   ci:
     name: "CI"
     runs-on: ubuntu-latest
-    container: springci/spring-boot-ci:2.7.x
+    container: springci/spring-boot-ci:3.2.x
     steps:
       - uses: actions/checkout@v2
       - name: "Build"
