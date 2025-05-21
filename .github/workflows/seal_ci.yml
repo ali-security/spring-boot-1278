@@ -1,11 +1,11 @@
 # .github/workflows/seal_ci.yml
 
-name: "CI"
+name: "Seal-CI"
 on: [push]
 
 jobs:
   ci:
-    name: "CI"
+    name: "Seal-CI"
     runs-on: ubuntu-latest
     container: springci/spring-boot-ci:3.2.x
     steps:

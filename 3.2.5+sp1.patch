@@ -1,0 +1,19 @@
+From 224474e677f936c6c86ff74b46daa210ec1991cf Mon Sep 17 00:00:00 2001
+From: Seal <info@sealsecurity.io>
+Date: Tue, 20 May 2025 21:24:23 +0000
+Subject: 
+
+---
+ gradle.properties | 2 ++--
+ 1 file changed, 1 insertions(+), 1 deletions(-)
+
+diff --git a/gradle.properties b/gradle.properties
+index 847ac0da8fb4..0fff4bcfb157 100644
+--- a/gradle.properties
++++ b/gradle.properties
+@@ -1,4 +1,4 @@
+-version=3.2.5
++version=3.2.5+sp1
+ 
+ org.gradle.caching=true
+ org.gradle.parallel=true
